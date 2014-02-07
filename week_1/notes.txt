@@ -1,0 +1,48 @@
+We use CSS to make things pretty and consistent
+
+selectors: refer to div, .invisible , #foobar (from most to least general)
+
+CLass and Id descriptors
+
+ids are unique to each div
+id="foobar"
+class="invisible"
+or <div id="foobar" class="invisible>
+class is a property you apply to a group 
+
+Lists:
+<ul>
+ <li>...
+
+</ul>
+
+call it style.css (or whatever)
+ Add it with <link rel="stylesheet" href="/style.css"">
+in <head>
+
+<head>
+  <link rel="stylesheet" href="./style.css">
+</head>
+use ./ or not at all on ours!
+
+color :rgba(255,0,255,0.7)
+text-decoration
+width, height, font-size
+--specify as percentage or pixel value
+border: size style color
+  border: 1px double red
+
+recall box model
+
+display attributes:
+block (takes full line)
+inline (only width of new element)
+none (not rendered)
+inline-block (rendered like inline, but you can set block properties like width, height, top and bottom padding/margin
+
+Position setting
+static (default)
+fixed-stays in same spot regardless of scrolling
+absolute-specific location in parent element (first parent element whose position is not static)
+position relative
+
